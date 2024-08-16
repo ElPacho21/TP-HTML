@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: separate;
+        }
+        th, td {
+            border: 1px solid black; /* Borde doble alrededor de cada celda */
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Encabezado Principal</h1>
+        <nav>
+            <ul>
+                <li><a href="#seccion1">Ir a Estructura</a></li>
+                <li><a href="#seccion2">Ir a Multimedia</a></li>
+                <li><a href="#seccion3">Ir a Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 id="seccion1">1. Estructura Básica del Documento HTML</h2>
+            <p><span>Este documento HTML tiene una estructura básica que incluye la declaracion DOCTYPE, etiquetas de metadatos y un título</span></p>
+        </section>
+
+        <section>
+            <h2>2. Encabezados y Propiedades del Texto</h2>
+            <h1>Encabezado h1</h1>
+            <h2>Encabezado h2</h2>
+            <h3>Encabezado h3</h3>
+            <h4>Encabezado h4</h4>
+            <h5>Encabezado h5</h5>
+            <h6>Encabezado h6</h6>
+            <p><b>Este es un texto en negrita.</b></p>
+            <p><em>Este es un texto en cursiva.</em></p>
+            <p><u>Este es un texto subrayado.</u></p>
+        </section>
+
+        <section>
+            <h2>3. Divisiones y Agrupación de Contenido</h2>
+            <div>
+                <h3>Sección 1</h3>
+                <p>Contenido de la primera sección agrupada en un div.</p>
+            </div>
+            <div>
+                <h3>Sección 2</h3>
+                <p>Contenido de la segunda sección agrupada en un div.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>4. Enlaces y Listas</h2>
+            <div>
+                <p>Visita nuestro <a href="https://www.google.com/" target="_blank">sitio web</a> para más información</p>
+                <div>
+                    <p>Enlaces internos:</p>
+                    <ul>
+                        <li><a href="#seccion1">Ir a Estructura</a></li>
+                        <li><a href="#seccion2">Ir a Multimedia</a></li>
+                        <li><a href="#seccion3">Ir a Formulario</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Lista desordenada:</p>
+                    <ul>
+                        <li>Primer ítem de un lista desordenada</li>
+                        <li>Segundo ítem de una lista desordenada</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Lista ordenada:</p>
+                    <ol>
+                        <li>Primer ítem de un lista ordenada</li>
+                        <li>Segundo ítem de una lista ordenada</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <article>
+            <h2 id="seccion2">5. Elementos Multimedia</h2>
+            <div>
+                <aside>
+                    <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg" alt="Es una imagen" width="200px" />
+                </aside>
+                <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls width="200px"></video>
+                <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+            </div>
+        </article>
+
+        <section>
+            <h2>6. Tablas</h2>
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                </thead>
+        
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+
+        <section>
+            <h2 id="seccion3">7. Formularios</h2>
+            <form>   
+                <label>Nombre:</label>
+                <input type="text"/>
+        
+                <label>Email:</label>
+                <input type="email"/>
+                
+                <label>Mensaje:</label>
+                <textarea></textarea>
+                
+                <button type="sumbit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>2024 Trabajo Práctico de HTML</p>
+    </footer>
+
+</body>
+</html>
